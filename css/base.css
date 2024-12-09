@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #FFF;
+    --darkPurple: #331436;
+    --darkTerraCotta: #CB4F57;
+    --blond: #FCF4B6;
+
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
