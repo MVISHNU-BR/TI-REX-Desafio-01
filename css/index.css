@@ -71,12 +71,13 @@ header .home-link {
 }
 
 .content {
-    width: 1100px;
+    max-width: 1100px;
     display: flex;
 
     align-items: center;
     justify-content: space-around;
     gap: 60px;
+    padding: 0 20px;
 }
 
 
