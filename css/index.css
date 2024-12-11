@@ -13,6 +13,7 @@ header {
 #logo-image {
     height: 50px; 
     width: 50px;
+    height: auto;
 }
 
 header .home-link {
@@ -70,13 +71,13 @@ header .home-link {
     background-color: var(--pansyPurple);
 }
 
-.content {
+.content-welcome {
     max-width: 1100px;
     display: flex;
 
     align-items: center;
     justify-content: space-around;
-    gap: 60px;
+    gap: 50px;
     padding: 0 20px;
 }
 
@@ -93,6 +94,7 @@ header .home-link {
 .welcome-text h2 {
     color: var(--white);
     font-size: 40px;
+    text-wrap: nowrap;
     font-weight: 800;
 }
 
@@ -112,3 +114,6 @@ header .home-link {
     max-width: 540px; 
     height: auto; 
 }
+
+/*           Manager Section*/
+
