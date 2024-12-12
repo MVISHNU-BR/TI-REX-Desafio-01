@@ -10,7 +10,8 @@
     --darkTerraCotta: #CB4F57;
     --blond: #FCF4B6;
     --blondOpacity: rgba(252, 244, 182, 0.5);
-    
+    --fadeText: rgba(0, 0, 0, 0.5);
+    --fadeBorder: rgba(0, 0, 0, 0.1);
     --pansyPurple: #7A1745;
 
 }
