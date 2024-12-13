@@ -15,7 +15,8 @@
     --fadeText: rgba(0, 0, 0, 0.5);
     --fadeBorder: rgba(0, 0, 0, 0.1);
     --pansyPurple: #7A1745;
-
+    --todoCardBorder: rgba(51, 20, 54, 1);
+    --searchBorder: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -28,7 +29,7 @@ a {
 
 
 header {
-    height: 80px;
+    min-height: 80px;
     background-color: var(--darkPurple);
     display: flex;
     align-items: center;

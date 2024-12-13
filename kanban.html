@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Manager</title>
+
+    <link rel="stylesheet" href="css/kanban.css" type="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <a href="/index.html" class="home-link">
+        <img
+          src="assets/logo 1.png"
+          id="logo-image"
+          alt="project manager logo"
+        />
+        <span><h1>Project Manager</h1></span>
+      </a>
+
+      <nav class="header-nav">
+        <ul class="list-link">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Profile</a></li>
+        </ul>
+        <input
+          type="text"
+          name="seachBox"
+          id="search-box"
+          placeholder="Search in site"
+        />
+        <!-- <img src="assets/search.svg" alt="search Icon" /> -->
+      </nav>
+    </header>
+    <main>
+      <div class="main-content">
+        <div class="todo-container">
+          <h2 class="title-section">To Do</h2>
+          <div class="todo-content">
+            <div class="card">
+              <div class="title">
+                <span class="badge badge-high">High</span>
+                <p class="date">Oct 16, 24</p>
+              </div>
+              <div class="task-title">
+                <h3>Create app</h3>
+              </div>
+              <div class="footer-card">
+                <div class="x-icon">
+                  <img src="assets/x.svg" alt="close x icon" />
+                </div>
+                <div class="persons">
+                  <div class="person person-purple">IT</div>
+                  <div class="person person-blue">JS</div>
+                  <div class="person person-pink">NS</div>
+                  <div class="person person-green">LC</div>
+                  <div class="person person-red">GM</div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="title">
+                <span class="badge badge-mid">Mid</span>
+                <p class="date">Oct 09, 24</p>
+              </div>
+              <div class="task-title">
+                <h3>Train for the project</h3>
+              </div>
+              <div class="footer-card">
+                <div class="x-icon">
+                  <img src="assets/x.svg" alt="close x icon" />
+                </div>
+                <div class="persons">
+                  <div class="person person-pink">NS</div>
+                  <div class="person person-red">GM</div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="title">
+                <span class="badge badge-low">Low</span>
+                <p class="date">Oct 06, 24</p>
+              </div>
+              <div class="task-title">
+                <h3>Make popcorn</h3>
+              </div>
+              <div class="footer-card">
+                <div class="x-icon">
+                  <img src="assets/x.svg" alt="close x icon" />
+                </div>
+                <div class="persons">
+                  <div class="person person-red">GM</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="progress-container">
+          <h2 class="title-section">In Progress</h2>
+          <div class="progress-content">
+            <div class="card">
+              <div class="title">
+                <span class="badge badge-high">High</span>
+                <p class="date">Oct 08, 24</p>
+              </div>
+              <div class="task-title">
+                <h3>Debug error</h3>
+              </div>
+              <div class="footer-card">
+                <div class="x-icon">
+                  <img src="assets/x.svg" alt="close x icon" />
+                </div>
+                <div class="persons">
+                  <div class="person person-purple">IT</div>
+                  <div class="person person-blue">JS</div>
+                  <div class="person person-pink">NS</div>
+                  <div class="person person-green">LC</div>
+                  <div class="person person-red">GM</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="complete-container">
+          <h2 class="title-section">Complete</h2>
+          <div class="complete-content">
+            <div class="card">
+              <div class="title">
+                <span class="badge badge-low">Low</span>
+                <p class="date">Apr 02, 21</p>
+              </div>
+              <div class="task-title">
+                <h3>Eat a sandwich</h3>
+              </div>
+              <div class="footer-card">
+                <div class="x-icon">
+                  <img src="assets/x.svg" alt="close x icon" />
+                </div>
+                <div class="persons">
+                  <div class="person person-red">GM</div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="title">
+                <span class="badge badge-mid">Mid</span>
+                <p class="date">Jan 28, 86</p>
+              </div>
+              <div class="task-title">
+                <h3>Drink Water</h3>
+              </div>
+              <div class="footer-card">
+                <div class="x-icon">
+                  <img src="assets/x.svg" alt="close x icon" />
+                </div>
+                <div class="persons">
+                  <div class="person person-red">GM</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/" class="footer-icon">
+            <img src="assets/facebook.svg" class="icon" alt="facebook logo" />
+          </a>
+          <a href="https://www.instagram.com/" class="footer-icon">
+            <img src="assets/instagram.svg" class="icon" alt="facebook logo" />
+          </a>
+          <a href="https://www.linkedin.com/" class="footer-icon">
+            <img src="assets/linkedin.svg" class="icon" alt="facebook logo" />
+          </a>
+        </div>
+        <p class="footer-text">
+          <small>&copy; 2024 Project Manager. All rights reserved.</small>
+        </p>
+        <a class="footer-link" href="/privacyPolicy.html">Privacy Policy</a>
+        <a class="footer-link" href="/privacyPolicy.html">Terms of Service</a>
+      </div>
+    </footer>
+  </body>
+</html>
