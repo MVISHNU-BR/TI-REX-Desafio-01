@@ -27,6 +27,13 @@ a {
     text-decoration: none;
 }
 
+#error {
+    color: red;
+}
+
+.hidden {
+    opacity: 0;
+}
 
 header {
     min-height: 80px;
