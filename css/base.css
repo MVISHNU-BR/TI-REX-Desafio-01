@@ -80,11 +80,14 @@ header .home-link {
 
     border-radius: 8px;
     text-align: center;
+    transition: 0.5s;
 
 }
 
 .login-button:hover {
     color: var(--white);
+    transform: scale(1.05);
+
 }
 
 /*         FOOTER */
@@ -123,12 +126,16 @@ footer {
     background-color: var(--white);
     height: 34px;
     width: 34px;
-    border-radius: 100%;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
+.footer-icon:hover{
+    transform: scale(1.2, 1.2);
+}
 .icon {
     width: 14px;
     height: 14px;

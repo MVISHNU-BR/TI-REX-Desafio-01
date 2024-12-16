@@ -24,6 +24,7 @@ body {
   color: var(--white);
   font-size: 16px;
 }
+
 .list-link li a:hover {
   padding-bottom: 4px;
   border-bottom: 2px solid yellow;
@@ -44,6 +45,11 @@ body {
   padding: 8px;
   padding-right: 30px;
   color: white;
+  transition: 0.5s;
+}
+
+#search-box:hover {
+  transform: scale(1.05);
 }
 
 /* main section todo list  */
