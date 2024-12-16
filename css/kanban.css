@@ -67,6 +67,7 @@ main {
   min-height: 746px;
   gap: 60px;
   padding: 60px 20px;
+  flex-wrap: wrap;
 }
 
 .todo-container,
@@ -210,4 +211,40 @@ main {
 
 .person-red {
   background-color: #af4a00;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+  
+  .main-content {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+
+  .todo-container,
+  .progress-container,
+  .complete-container {
+    height: auto;
+    width: 100%;
+  }
+
+  .title-section {
+    font-size: 20px;
+  }
+  .card {
+    min-width: 100%;
+    height: auto;
+  }
+
+  .task-title h3, .date{
+    font-size: 13px;
+  }
+
 }

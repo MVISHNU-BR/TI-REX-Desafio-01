@@ -149,3 +149,10 @@ footer {
     color: var(--white);
     font-size: 20px;
 }
+
+@media (max-width: 540px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
