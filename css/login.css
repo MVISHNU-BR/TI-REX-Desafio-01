@@ -93,3 +93,14 @@ main {
     cursor: pointer;
     color: var(--blond);
 }
+
+
+@media (max-width: 740px) {
+    .login-content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .email-input, .password-input {
+        width: 80%;
+    }
+}
